@@ -16,6 +16,7 @@ public class Startingframe {
 			public void run() {
 				try {
 					Startingframe window = new Startingframe();
+					System.out.println("crawler started");
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
